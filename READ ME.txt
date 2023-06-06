@@ -1,13 +1,13 @@
-Merhaba, 
+Hello,
 
-Spotify kaynaklı bir sorundan bahsetmek için bu "READ ME" dosyasını oluşturduk.
-Sorun şu, spotifyda eğer herhangi bir çalma listesi bulunmuyorsa arama sayfasında
-"Yolla" şarkısı üzerinden çalma listesi oluşturulduğu zaman çalma listesinin 
-içerisine şarkıyı eklemiyor ve çalma listesinin ismini "1. Çalma Listesi" olarak
-oluşturuyor. Bu sebepten ötürü çalma listesine şarkı eklemediği için en az bir tane 
-mevcut çalma listesi varsa senaryoyu çalıştırabiliyoruz. Bundan dolayı manuel olarak 
-çalma listeleri oluşturduk. Kontrol ettiğiniz zaman bu çalma listelerini silmeden 
-testi çalıştırırsanız seviniriz. İyi çalışmalar dileriz.
+We created this "READ ME" file to talk about a problem with Spotify.
+The problem is on spotify if there is no playlist on the search page
+When the playlist is created from the song "Yolla", the playlist is
+It doesn't include the song in it and changes the name of the playlist to "1st Playlist".
+forming. At least one for not adding songs to the playlist for this reason
+we are able to run the script if there is an existing playlist. Therefore, manually
+We created playlists. Without deleting these playlists when you check
+We will be glad if you run the test. We wish you good work.
 
-Saygılarımızla, 
-Team Crazy Pirates			
+Regards,
+Team Crazy Pirates		
