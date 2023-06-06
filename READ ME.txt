@@ -1,0 +1,13 @@
+Merhaba, 
+
+Spotify kaynaklı bir sorundan bahsetmek için bu "READ ME" dosyasını oluşturduk.
+Sorun şu, spotifyda eğer herhangi bir çalma listesi bulunmuyorsa arama sayfasında
+"Yolla" şarkısı üzerinden çalma listesi oluşturulduğu zaman çalma listesinin 
+içerisine şarkıyı eklemiyor ve çalma listesinin ismini "1. Çalma Listesi" olarak
+oluşturuyor. Bu sebepten ötürü çalma listesine şarkı eklemediği için en az bir tane 
+mevcut çalma listesi varsa senaryoyu çalıştırabiliyoruz. Bundan dolayı manuel olarak 
+çalma listeleri oluşturduk. Kontrol ettiğiniz zaman bu çalma listelerini silmeden 
+testi çalıştırırsanız seviniriz. İyi çalışmalar dileriz.
+
+Saygılarımızla, 
+Team Crazy Pirates			

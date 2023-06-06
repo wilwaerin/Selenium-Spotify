@@ -1,0 +1,53 @@
+/**
+ id
+ name
+ class
+ css
+ xpath
+
+  css  tag[attribute='value']
+
+ ul[aria-label='Kitaplığın'] li[role='listitem'][draggable='true']
+ ul[aria-label='Kitaplığın'] li[role='listitem'][draggable='true']:nth-child(1)
+ ul[aria-label='Kitaplığın'] > div > div:nth-child(2)  > li[role='listitem'][draggable='true']:nth-child(1)
+
+ ul[aria-label='Kitaplığın']  > div > div[role='presentation'] > div:nth-child(1)
+ ul[aria-label='Kitaplığın']  > div > div[role='presentation'] > div:nth-of-type(1)
+
+ ul[aria-label='Kitaplığın']  > div > div[role='presentation'] > li:last-of-type
+ ul[aria-label='Kitaplığın']  > div > div[role='presentation'] > li:last-child
+
+ ul[aria-label='Kitaplığın']  > div > div[role='presentation']:nth-child(2) > li:nth-child(2n)
+ ul[aria-label='Kitaplığın']  > div > div[role='presentation']:nth-child(2) > li:nth-child(2n-1)
+
+ ul[aria-label='Kitaplığın']  > div > div[role='presentation']:nth-child(2) > li:nth-child(5) + li
+ ul[aria-label='Kitaplığın']  > div > div[role='presentation']:nth-child(2) > li:nth-child(5) ~ li
+
+ ul[aria-label='Kitaplığın']  > div > div:not([data-testid='top-sentinel']):not([data-testid='bottom-sentinel']) > li
+
+ contains *   ul[aria-label='Kitaplığın']  > div > div[data-testid*='sent']
+ starts-with ^  ul[aria-label='Kitaplığın']  > div > div[data-testid^='top-']
+ ends-with $    ul[aria-label='Kitaplığın']  > div > div[data-testid$='sentinel']
+
+ xpath //tag[@attributte='value']
+
+ //ul[@aria-label='Kitaplığın']//li[@role='listitem' and @draggable='true']
+ //ul[@aria-label='Kitaplığın']//li[@role='listitem'][@draggable='true']
+
+ //ul[@aria-label='Kitaplığın']//li[@role='listitem' or @draggable='true']
+
+ //ul[@aria-label='Kitaplığın']//li[@role='listitem' and @draggable='true'][1]
+ //ul[@aria-label='Kitaplığın']//li[@role='listitem' and @draggable='true'][last()]
+ //ul[@aria-label='Kitaplığın']//li[@role='listitem' and @draggable='true'][last()-1]
+ //ul[@aria-label='Kitaplığın']//li[@role='listitem' and @draggable='true'][5]/following-sibling::li
+ //ul[@aria-label='Kitaplığın']//li[@role='listitem' and @draggable='true'][5]/preceding-sibling::li
+ //ul[@aria-label='Kitaplığın']//li[@role='listitem' and @draggable='true'][5]/parent::div
+
+ //ul[@aria-label='Kitaplığın']/div/div[not(@data-testid='top-sentinel')][not(@data-testid='bottom-sentinel')]
+
+ contains //ul[@aria-label='Kitaplığın']/div/div[contains(@data-testid,'sent')]
+ starts-with //ul[@aria-label='Kitaplığın']/div/div[starts-with(@data-testid,'top-')]
+ //a[@data-testid='creator-link'][text()='YunusB']
+
+ //span[text()='Ara']/parent::a
+ */
